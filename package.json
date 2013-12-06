@@ -1,0 +1,19 @@
+{
+  "name": "chatty",
+  "version": "0.0.1",
+  "description": "Sexy syslogging for node.js",
+  "main": "lib/log.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": "",
+  "keywords": [
+    "log",
+    "syslog"
+  ],
+  "author": "Thom Seddon",
+  "license": "MIT",
+  "dependencies": {
+    "node-syslog": "~1.1.7"
+  }
+}
