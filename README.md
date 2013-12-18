@@ -53,11 +53,12 @@ Return a syslog stream wrapper with specified priority.
 
 #### chatty.configure(options)
 
-Configure chatty, availiable options are: `ident`, `option` and `facility` ([syslog man page](http://linux.die.net/man/3/syslog)
+Configure chatty, availiable options are: `ident`, `option` and `facility` ([syslog man page](http://linux.die.net/man/3/syslog))
+An extra option `console`, may be set to true to log messages with console.log rather than syslog (useful for development/debugging)
 
 #### chatty.log(priority, data)
 
-Direct wrapper of syslog (you probably don't want this).
+Direct wrapper of syslog (you probably DON'T want this).
 
 `priority` must be a syslog.prority int
 
